@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+  	<div class='container'>
+
+		<!-- Title -->
+  		<div class='jumbotron'>
+  			<div class='container'>
+  				<h1>Let's play trivia!</h1>
+				<hr>
+					<h2>Time Remaining:</h2>
+					<p id='timer'>150</p>
+			</div>
+		</div>
+
+		<!-- Questions -->
+
+		<div class='row'>
+			<div class='col-lg-12'>
+			
+				<div class='panel panel-default'> 
+					<div id="question1">
+						<h2 class='question'>What is the largest freshwater lake in the world?</h2>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='lakeTiticaca'>
+								Lake Titicaca
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='lakeHeron'>
+								Lake Heron
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='lakeSuperior'>
+								Lake Superior
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='lakeLadoga'>
+								Lake Ladoga
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class='row'>
+			<div class='col-lg-12'>
+			
+				<div class='panel panel-default'> 
+					<div id="question2">
+						<h2 class='question'>What is the largest island in the world?</h2>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question2' id='galapagos'>
+								The Galapagos 
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question2' id='madagascar'>
+								Madagascar
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question2' id='sicily'>
+								Sicily
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question2' id='greenland'>
+								Greenland
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class='row'>
+			<div class='col-lg-12'>
+			
+				<div class='panel panel-default'> 
+					<div id="question3">
+						<h2 class='question'>What country has the oldest forest in the world?</h2>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='australia'>
+								Australia
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='unitedStates'>
+								United States
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='argentina'>
+								Argentina
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='norway'>
+								Norway
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class='row'>
+			<div class='col-lg-12'>
+			
+				<div class='panel panel-default'> 
+					<div id="question1">
+						<h2 class='question'>What is the longest river in the world?</h2>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='nile'>
+								The Nile
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='amazon'>
+								The Amazon
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='yangtze'>
+								The Yangtze
+							</label>
+						</div>
+						<div class='form-check'>
+							<label class='form-check-label'>
+								<input class='form-check-input' type='radio' name='question1' id='danube'>
+								The Danube
+							</label>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+  			</div>
+  		</div>
+
+  		<!-- Button -->
+  		<div class='row'>
+  			<div class='container'>
+  				<div class="col-lg-4 text-center"> 
+    				<button id="doneButton" class="btn btn-primary">Done!</button> 
+				</div>
+			</div>
+		</div>
+
+  	</div>
+
+  </body>
